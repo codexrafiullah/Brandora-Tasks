@@ -5,9 +5,15 @@ while (true){
   let choice = prompt(
     "Choose an option \n1. Add a student\n2. Remove a student\n3. Display all students \n0. To quit.");
 
-  if ( choice == "1"){
+  if ( choice === "1"){
 
     let addstudent = prompt("Enter the name of the student to add");
+    // let rollno = prompt('rollno')
+
+    // let obj = {
+    //   name : addstudent,
+    //   rollno : rollno
+    // }[]
 
     if(studentName.includes(addstudent)){
       alert(` ${addstudent} is already in the list.`)
