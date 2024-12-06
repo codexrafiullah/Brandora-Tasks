@@ -16,7 +16,7 @@ while (true) {
   );
 
   if (choice === "1") {
-      // Add a student
+      
       let name = prompt("Enter the name of the student to add:");
       let email = prompt("Enter the email of the student to add:");
 
