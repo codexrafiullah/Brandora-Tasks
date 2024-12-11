@@ -28,20 +28,20 @@
 // }
 
 
-function table(){
-  let number = 3;
-let result = 0;
-for (let i=1; i<=10; i++){
-     result = number * i;
-     if(result%2===0){
-        console.log(result,"even number");
-     }else{
-        console.log(result,"odd number");
-     }
-}
-}
-let number = 3;
-table();
+// function table(){
+//   let number = 3;
+// let result = 0;
+// for (let i=1; i<=10; i++){
+//      result = number * i;
+//      if(result%2===0){
+//         console.log(result,"even number");
+//      }else{
+//         console.log(result,"odd number");
+//      }
+// }
+// }
+// let number = 3;
+// table();
 
 
 // const condition = (result) => {
@@ -76,3 +76,19 @@ table();
 // console.log(evenNum);
 
 
+while(true){
+   let age = parseInt(prompt("Enter your age"))
+   if (age < 18){
+       alert("Sorry you are not Eligible for License")
+       break;
+   }else if(age >= 18){
+       alert("Now select your Gender")
+       let Gender = prompt("Enter your Gender");
+   
+       if(Gender === "Male" || Gender === "male" ){
+           alert(`You are Eligible for License`)
+       }else if (Gender === "Female" || Gender === "female"){
+           alert("Sorry you are not Eligible for License")
+       }
+   }
+   }
